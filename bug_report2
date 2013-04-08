@@ -1,0 +1,69 @@
+// Incorrect displaying of non latin  symbols in search
+// # Enter cyrillic name of employee in search field
+// # Just wait a second
+// Expected result: You can read the name of employee that have been entered before
+// Actual result:   Symbols you entered are displaying incorrect
+
+
+// Case dependent search in cyrillic encoding
+// Try to enter employee name with lower case symbols in search field
+// Expected result: Needed employee have been found.
+// Actual result:  Needed employee haven't been found.
+
+
+
+Taken filter doesn't work
+# Be sure you have taken time off
+# Go to calendar view
+# Recheck taken filter
+Expected result: taken time off days should be displayed.
+Actual result: taken time off days are not displayed.
+
+
+Deleted and restored item is not added to purchase request.
+# Go to purchases
+# Make new "Request purchase"
+# Select Cost center and supplier
+# Fill the fillds of first item
+# Delete this item
+# Press twice on "Add item"
+# Fiil the fiealds of second item
+# Press "Request"
+Expected result: Request accepted for both two items
+Actual result: Request accepted only for second item regardless of fields of first item were filled.
+
+
+Loading files in attachment bigger than 6 Mb limit with out warning in IE
+# Create new purchase
+# Create attachment with file bigger than 6 Mb
+Expected result: Warning message about 	incompatibility in file size and allowed file size limit of uploading files
+Actual result:   Loading file with out saving when request was created.
+
+
+Displaying  [] in appraisal where type of question is "number" in IE
+# Create new template
+# Make a question type "number"
+# Save template and make new appraisal
+Expected result: nothing should be under scroll bar
+Actual result:   under scrollbar displays label with "[]" until value not cahnged.
+
+
+Duplicating employees in calendar view
+# Create situation when employee belong to several teams
+# Go to time off calendar view
+# Turn on all teams in filter
+Expected result: each employee displays ones.
+Actual result: employees duplicate several times
+
+
+//----------------------------------------------------------------------------------------------------------------//
+
+
+
+
+
+
+
+
+
+

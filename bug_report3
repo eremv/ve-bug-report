@@ -1,0 +1,162 @@
+Inability to set the same employee as a person that is responsible for purchasing and for paying expenses claims.
+# Open Settings -> Purchases and Expenses
+# Set person that is responsible for purchasing
+# Set the same employee as a person that is responsible for paying expenses claims
+Expected result:	Both employees were set correctly.
+Actual result:  	The person which is respnsible for purchasing was changes to first employee in list.
+
+
+Add supplier in purchases
+"Upgrade" buttons in changing plan page
+Add extra days on statistic page
+Adding new range in purchases and expenses settings
+Add new question in appraisals
+"Copy question" button in appraisal template
+
+
+
+Yellow color of time off request panel
+# Create new time off request
+# Edit last one
+Expected result:	Time off request panel has white backgroung color.
+Actual result:		Time off request panel has yellow backgroung color while page will not be reloaded.
+
+
+Time off record remains after removing request
+# Press delete time off request
+# Accept deleting
+Expected result:	record about time off should be deleted too.
+Actual result: 		record about time off remains untill page will not be reloaded.
+
+
+
+Strange label near the item tax.
+# Go to purchases
+# Create new purchase request
+# Enter some item tax
+Expected result:	Total value shoul be changed.
+Actual result:		"22 results are available, use up and  down arrow kays to  anvigate "
+
+
+
+404 error when admin try to request apprasial
+# Go to appraisals
+# Choose yourself in field "Appraisers"
+# Press request button
+Expected result:	Message about empty fields	
+Actual result:		Message "Page not found"
+
+Cursor doesn't change on hover event on Add item in purchases
+# Go to Purchases
+# Click "Request purchase"
+# Place mouse cursor under "Add item"
+Expexted result: Cursor should be changed to "pointer"
+Actual result: Cursor changed to "text"
+
+Ability to log in and use system when company is locked
+# Go to owner panel and lock company
+# Login as any employee of this company
+Expected result: 	You see message about your company is locked
+Actual result: 		You can login
+
+
+Locked filter in admin panel doesn't work
+# Make locked some company
+# Try to turn on locked filter
+Expected result:	Filter should be turned on.
+Actual result: 		Nothing happend.
+
+
+
+Incorrect recalc of budget when cost of purchase was changed. 
+# For example create cost center with budget 100 
+# Create new purchase with item cost 10 from this cost center
+# Change status of purchase to approved
+# Click "Edit"
+# Change item cost to 20
+# Press "Request"
+# Look onto budget
+Expected result:	Budget did not change.
+Actual result:		Budget increased to 110.
+
+
+
+Layout error,line  strikethrough the text
+# Go to prifile of user
+# Click "Edit data"
+# Press "Choose file" and try to upload incorrect file
+# Press "Update profile"
+Attach picture
+
+
+
+Failed link to dashboard in E-mail about new appraisals
+# Create new appraisal
+# Recive E-mail
+# Click on link "dashboard" in E-mail
+Expected result:	You should be redirected to dashboard
+Actual result:		Link points to x-msg://64/
+
+
+Issue with clearing search field
+# Go to Time off
+# Write name of employee in search field
+# Go to Employees and back to Time off
+Expected result: search field should be empty
+Actual result: last search value displays in field and you can not delet it
+
+Layout defect when column caption is out of border of table in IE
+Go to Time off statistics of user
+View screenshot c2
+
+
+
+Apperance of empty spaces in calendar view in IE
+# Go to time off
+# Click on calendar view
+Expected result: Calendar view displays normaly
+Actual result: In some plases in calendar you can see empty spaces. See attachment pictures 1,2
+
+
+Incorrect work of search
+# Be sure that you have more than one pages of purchases. For example on the first page you should have 15 purchases from one employee and other 5 purchases from other; on the second page you should have about 15 purchases from one employee and  5 from other.
+# Enter the name of first employee
+# Scroll down to the bottom of the page
+# Press "More"
+# Scroll down again
+Expexted result: The result of searching should contain only purchases from target employee
+Actual result: We can find other employee on the second page of search result
+
+/------------------------------------------------------------------------------------------------------------------------------------------/
+
+
+
+
+
+----Tuturial page not find
+# Create new company
+# Log in 
+# Click on "Employees"
+# Click on "Expenses"
+Expected result:	You should go to expenses page
+Actual result:		Message about "Page not found"
+
+
+----Displaying inscription about only person in system when you search employee
+# Be sure that you are not only person in system
+# Go to the Employees page
+# Write name of employee to the search field
+# Press Enter
+Expected result: System displays person you have been looking for
+Actual result: System displays person and told you that you are only person in the system
+
+
+
+
+в ИЕ не появляется зхначек очистки поискового поля когда оно чем-то заполнено
+
+
+
+
+
+

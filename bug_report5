@@ -1,0 +1,143 @@
+====================================================POSTED==============================================================
+
+--------------------- Suppliers 
+Disagreement doesn't work when supplier status is changed
+# Go to Settings -> Purchases and Expenses
+# Click "Edit suppliers"
+# Click on pencil near the supplier to edit them
+# Change supplier status
+# Press to cancel changes
+# Press save
+Expected result: Changes not apply
+Actual result: In spite of canceling changes were applied
+
+Ability to make Default supplier as a temporary supplier
+# Go to Settings -> Purchases and Expenses
+# Click "Edit suppliers"
+# Click on pencil near the Default supplier to edit
+# Turn on "Temporary supplier"
+# Agree with warning
+# Press "Save changes"
+
+Displaying rejected days in calendar view
+# Go to Time off
+# Click on calendar view
+Expected result: you cann't see rejected days according to working filter
+Acctual result: you see rejected days until some filter don't change it's status
+
+
+============================================ UNDER CONSIDERATION =====================================================
+
+Incorrect displaying time of comment in Windows
+# Go to the time off
+# Create new time off request
+# Look at the comment creation time
+Expected result: Time of creation displays "A second ago"
+Actual result: Time of creation "About an hour ago"
+
+
+Displaying "/" in place of logo and company name when they are off
+# Go to company settins
+# Take off checkboxes from "Show logo" and "Show company name" 
+# Press "Save changes"
+Expected result:  Displaying message "Logo or company name must be present" and changes shouldn't be accepted
+Actual result: Changes accepted, in place of logo and company name you see "/" simbol
+
+
+"Half an day of ..." in pdf report in time off
+# Press "Request  time off"
+# Click on "Half days"
+# Click request
+# Choose this request
+# Click "Export" -> "Save as PDF"
+# Open seved PDF file
+Expected result: "Half a day of ..." 
+Actual result: "Half an day of ..." 
+
+
+Displaying rejected days in calendar view
+# Be sure that you have some rejected days 
+# Choose calendar view
+Expected result: You shouldn't see rejected days in a calendar view becouse of you don't have "Rejected" filter
+Actual result: There are some rejected days in a calendar view. They becomes hidden after you change status of any filter.
+
+
+Ability to see apprasials you have been answered on dashboard
+# Create new appraisal
+# Log in with a user from appraisers list
+# Go to "Appraisals"
+# Give the answer for this appraisal
+# Go to dashboard
+Expexted result: Record about appraisal shouldn't be on dashboard
+Actual result: Record about appraisal you habe been answered places on dashboard and shows you 404 error when you click on the record. 
+
+
+Incorrect count of answers in appraisal records on dashboard
+# Create new appraisal
+# Go to dashboard
+# Find appraisal record you have been created before
+# Look at the answer counter 
+Expected result:  Answer counter should be equal to 0
+Actual result: Answer counter equal to 1 and doesn't change while appraisers answer the questions. It increases every time you are editing apprailsal.
+
+
+Filters doesn't work for several pages in Purchases
+# Be sure you have more than one page of purchases which contain purchases from different peoples
+# Change status of any filter
+Expected result: Changes should be applied to all purchases records
+Actual result: Filter applies only to the first page of records
+
+
+There is no warning when you submit unchanged appraisal
+# Create appraisal
+# Login with appraiser you've added in list before
+# Go to Appraisals
+# Choose yours appraisal
+# Press "Submit"
+Expected result:  User should be shown with warning about he may to answer  even if one question
+Actual result: Nothing happend
+
+
+Upload fails after invalid file
+# Given  vald file, one invalid and again valid file
+# Go to purchases
+# Click "Add attachment"
+# In Open dialog window choose all files to attach
+# Press "Open"
+Expected result: All valid files should be uploaded and attached
+Actual result: Valid files before invalid were uploaded. The rest of valid files haven't been uploaded
+
+Edit button remained after you appraisal 
+
+- Если при создании опроса указать себя в списке опрашиваемых, то после ответов на вопросы кнопка редактирования остается по прежнему доступной, однако по нажатию выдает 404 
+
+
+Incorrect reload of time off page
+ # Go to Time off
+ # Click on calendar view
+ # Click back to list view
+ # Reload the page
+ Expected result: Page should be reloaded in normal view
+ Actual result: Page reloads in calendar view
+
+
+Mock calendar cell in blackouts
+# Go to Settings -> Time off
+# Choose April,28 as blackout day
+# Click on the place under May, 5
+Expexted result:  Nothing should be happened
+Actual result: Selection at April,28 disappeared 
+
+
+
+Restoring default value tax
+# Go to purchases
+# Set item name
+# Set item cost
+# Set item count
+# Set item tax = 0
+# Press "Request"
+Expected result: Error message about empty supplier and cost center fields should be shown, but values of the item fields shouldn't be changed
+Actual result: Item tax field changes it's value to default tax
+
+

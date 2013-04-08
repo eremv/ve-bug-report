@@ -1,0 +1,115 @@
+
+Incorrect displaying of accrued method.
+1. Settings -> time off
+2. Set occrued method "Weekly" or "Monthly"	
+3. Save config
+4. Choose eny employer.
+5. Click "Statistics" 
+Expected result: In informational block accrued method must be correct.
+Actual result: In informational block occrued method is displayed only "Annually".
+
+Inactive button of adding extra days.
+1. Go to Employees
+2. Choose employer
+3. Click "Statistics"
+4. click "Add extra days" link
+5. Enter extra days count in a field.
+Expected result: Add button becomes active and ready to press.
+Actual result: Add button is inactive untill input focus hadn't been changed.
+
+Ability of entering negative values in "Count" and "Item tax" fields in Purchases. 
+1. Click "Purchases";
+2. Click "Request purchase";
+3. Fill all fields exept Count and Item tax;
+4. Fill Count and Item tax fields with negative values;
+5. Click Request;
+Expected result: error. only non negative values could be accepted.
+Actual result: request was added succsessfuly.
+
+
+Ability of entering negative values in "Count" and "Item tax" fields in Expenses. 
+1. Click "Expenses"
+2. Click "Request expense"
+3. Fill all fields exept ount and Item tax
+4. Fill Count and Item tax fields with negative values
+5. Click Request
+Expected result: error. only non negative  values could be accepted
+Actual result:request was added succsessfuly.
+
+
+ Ability of execution Javascript in comments to request
+1. Go on Time off page
+2. Choose any time off request
+3. Enter java script code in field of "Your response"
+4. Press "Answer"
+Expected result: response added successfuly.
+Actual result: java script was executed.
+
+
+?  Adding new Time off request regardless of filter
+1. Click "Time off"
+2. Set filter on "This week"
+3. Click "Request time of"
+4. Make request for some days from the week after next week
+Expected result: New request should be shown when either "all periods" or "future" filter set.
+Actual result : New request displayes in Time off list
+
+Appraisals deadline date don't checkup
+1. Go to appraisals
+2. Press "Begin appraisal"
+3. Set deadline date for appraisal before now
+4. fill other fields
+5. click "Request"
+Expected result: message "Deadline must be greater or equal to #now_date# "
+Actual result: Page not found
+
+Feedback employees list not displays 
+1. Go to feedback
+2. Press "Give feedback"
+3. Choose more than 1 people who should recive feedback and fill feedback field and press "Give" button.
+4. Press  on link "n employees"
+Expected result: list of employees will be displayed
+Actual result: nothing is shown.
+
+
+
+Give feedback button don't work.
+1. Go to feedback
+2. click request feedback
+3. Add yourself to peoples list who should give feedback 
+4. enter feedback request
+5. press "Request" button
+6. press give feedback button
+Expected result:  responce field should be shown.
+Actual result: nothing happend.
+
+
+
+Incorrect work of Pending filter
+1. Go to time off page
+2. Create request with status "Pending"
+3. Click on a calendar view
+Expected result: pending days are not displaying because pending filter is off for default.
+Actual result: all days are displaying.
+
+
+Incorrect work of Approve filter in IE9
+1. Go to time off page in IE9.
+2. Create 2 requests: first pending, second approved. 
+3. Click on a calendar view
+Expected result:  Approved days are displaying.
+Actual result: No days are displaying untill approved filter will be rechecked.
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+decription in appraisal displays to short without ability to read it.
+
+1. Setting-> company
+2. Contacts phone number is to short. Can't enter number like +38(012)345-67-89	
+

@@ -1,0 +1,70 @@
+ Balance string doesn't restore when you change time off type
+ # Go to time off
+ # Click "Request time off"
+ # Change time off type from holiday to sickness
+ # Change time off type from sickness to holiday
+ Expected result: string with you time off balance should be displayed
+ Actual result: time off balance string didn't restore
+
+
+Duplicating free user companyes in owner panel (HISTORY exist)
+
+
+
+///--------------------------------------------------RUSSIAN LOCALIZATION
+
+- В покупках "В ожидании налезает на Удалить"
+
+- "В ожидании" и "Подтверждено" в отпусках с маленькой буквы сделать следует
+
+- Error when you try to export time off into pdf 
+# Create new Time off
+# Click export
+# Choose PDF формат
+Expected result: PDF file should be saved successfuly
+Actual result: Action controller exception "18n::InvalidPluralizationData in Slim/time_offs#show"
+
+- Название фильтра "Принят", а статус покупки "Завершен"
+
+- При переходе на страницу сотрудников , а так же во всех пунктах меню "Настройка",  язык бокового и верхнего меню  становится снова английским
+
+
+
+
+/// -------------------------------------------------- BLACKOUTS DAYS
+Incrorrect state of checkboxes in blackouts
+# Go th Settings -> Timeoff
+# Choose several columns in blackouts
+# Press save
+# Reload the page
+Expected result: Checkboxex should be turned on
+Actual result: Blackouts days are still marked but column checkboxes turned off
+
+Calendar view is being displayed too slow
+# Go to Settings-> Time off
+# Choose all Sundays and Saturdays as blackouts days
+# Press "Save"
+# Go to Time off
+# Click on calendar view
+Expected result: calendar view should be displayed immediately
+Actual result: Page needs about 28 seconds to be loaded and displayed
+
+
+
+Selection of days in time off calendar has big delay
+# Go to Settings-> Time off
+# Choose all Sundays and Saturdays as blackouts days
+# Press "Save"
+# Go to time off
+# Press "Request time off"
+# Choose several days
+Expexted result: Days should be selected immediately
+Actual result: Days has been selected with delay
+
+
+
+/---------------------------------------------------------------------------------------------------------------/
+
+
+
+
