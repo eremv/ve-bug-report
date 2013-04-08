@@ -129,15 +129,18 @@ Expexted result:  Nothing should be happened
 Actual result: Selection at April,28 disappeared 
 
 
-
-Restoring default value tax
+Restoring the default item tax in purchases
 # Go to purchases
-# Set item name
-# Set item cost
-# Set item count
-# Set item tax = 0
+# Click on "Request purchase"
+# Fill item tax title
+# Fill item cost without tax
+# Set count
+# Set other value of item tax
 # Press "Request"
-Expected result: Error message about empty supplier and cost center fields should be shown, but values of the item fields shouldn't be changed
-Actual result: Item tax field changes it's value to default tax
+Expected result: You shoul get nottification about blank fields but item cost shouldn't been changed
+Actual result: Item tax changed it's value to default
+ 
+
+
 
 
