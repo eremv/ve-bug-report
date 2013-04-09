@@ -141,6 +141,12 @@ Expected result: You shoul get nottification about blank fields but item cost sh
 Actual result: Item tax changed it's value to default
  
 
-
+No warning when you import users from csv file and not comfirm that data are correct
+# Go to Employees
+# Press "Add someone new"
+# Upload csv file with user data
+# Press "Save changes"
+Expected result: You should be displayed with warning that you have to 	confirm than users data are correct
+Actual result: Actualy nothing happens
 
 
