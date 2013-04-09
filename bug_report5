@@ -150,3 +150,11 @@ Expected result: You should be displayed with warning that you have to 	confirm 
 Actual result: Actualy nothing happens
 
 
+Presence of russian translation elements on registering new company
+# First login to the company with russian localization
+# Log out
+# Register new company
+# Go to employees
+# Press "Add someone new"
+Expexted result: You see normal page in english
+Actual result: 	Time off configuration is written in russian
