@@ -158,3 +158,11 @@ Presence of russian translation elements on registering new company
 # Press "Add someone new"
 Expexted result: You see normal page in english
 Actual result: 	Time off configuration is written in russian
+
+
+Problem with creating trial data
+# Be sure you are logged in company
+# Log out
+# Create new company
+Expected result: You should have trial data in company and get e-mail announcement about created purchases, expenses and time off
+Actual result: New company doesn't have trial data, but they appears on your company you have been logged in before.
